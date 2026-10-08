@@ -1,0 +1,93 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #c9bebe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    background-color: #e3ded8; 
+    width: 100%;
+    max-width: 300px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.foto {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+}
+.container h1 {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.identitas {
+    font-size: 0.85rem;
+    color: #000000;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+.container h2 {
+    font-size: 1rem;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.deskripsi {
+    font-size: 0.8rem;
+    color: #000000;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+.hobi {
+    list-style: none; 
+    font-size: 0.85rem;
+    color: #000000;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.sosial {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+.sosial a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+}
+.sosial a:hover {
+    background-color: #000000;
+}
+.container {
+    position: relative; 
+    padding-bottom: 50px;
+}
+.kembali-box {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
